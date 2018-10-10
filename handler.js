@@ -32,7 +32,7 @@ module.exports.sessionToken = async (event, context) => {
 	  headers: {
 	  	'Authorization': auth_token,
 	  	'Content-Type': 'application/json',
-	  	'Custom-Allowed-Origin-Header-1': _config.sites
+	  	'Custom-Allowed-Origin-Header-1': _config.site
 	  },
 	  json: true
 	}
